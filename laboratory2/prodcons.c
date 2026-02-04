@@ -59,6 +59,7 @@ int main(int argc, char **argv)
         close(fds[1]);
         wait(0);
         wait(0);
+        printf("test");
 
     }
 
